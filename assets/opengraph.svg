@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>Highlights | BQ Surge Take-Home</title>
+  <desc>A light background with a coral photo icon, a Highlights heading, and two overlapping landscape cards.</desc>
+  <defs>
+    <clipPath id="coast"><rect x="18" y="18" width="306" height="184" rx="12" /></clipPath>
+    <clipPath id="mountains"><rect x="18" y="18" width="306" height="184" rx="12" /></clipPath>
+  </defs>
+  <rect width="1200" height="630" fill="#FAFAFA" />
+  <g transform="translate(72 64)">
+    <rect width="56" height="56" rx="14" fill="#EC484B" />
+    <rect x="12" y="15" width="32" height="26" rx="5" fill="none" stroke="#FFF" stroke-width="3" />
+    <circle cx="35" cy="23" r="3" fill="#FFF" />
+    <path d="m14 36 9-10 8 9 4-4 7 8" fill="none" stroke="#FFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="213" fill="#EC484B" font-size="17" font-weight="600" letter-spacing="2">A FEW GOOD MEMORIES</text>
+    <text x="66" y="313" fill="#171717" font-size="92" font-weight="700" letter-spacing="-4">Highlights</text>
+    <text x="72" y="372" fill="#737373" font-size="26">Places, experiences, and little moments.</text>
+    <rect x="72" y="501" width="48" height="38" rx="10" fill="#F0F0F0" />
+    <text x="96" y="526" fill="#404040" font-size="16" font-weight="600" text-anchor="middle">BQ</text>
+    <text x="136" y="526" fill="#737373" font-size="19">Surge Take-Home</text>
+  </g>
+  <g transform="translate(792 80) rotate(8 171 151)">
+    <rect x="0" y="5" width="342" height="302" rx="20" fill="#EDEDED" />
+    <rect width="342" height="302" rx="20" fill="#FFF" stroke="#E8E8E8" />
+    <g clip-path="url(#mountains)">
+      <rect x="18" y="18" width="306" height="184" fill="#E5EBEB" />
+      <circle cx="266" cy="64" r="24" fill="#D2DCDC" />
+      <path d="M0 202 112 64 238 202Z" fill="#A8B9B3" />
+      <path d="m112 64-30 38 29-8 27 8Z" fill="#F6F8F7" />
+      <path d="M126 202 256 94 352 202Z" fill="#849F95" />
+      <path d="M18 176Q120 149 190 188T324 176V202H18Z" fill="#607D72" />
+    </g>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="20" y="233" fill="#262626" font-size="20" font-weight="600">The long way home</text>
+      <text x="20" y="259" fill="#8A8A8A" font-size="15">North Vancouver, BC</text>
+      <text x="20" y="284" fill="#525252" font-size="15">Worth the extra steps.</text>
+    </g>
+  </g>
+  <g transform="translate(671 266) rotate(-6 171 151)">
+    <rect x="0" y="5" width="342" height="302" rx="20" fill="#E8E8E8" />
+    <rect width="342" height="302" rx="20" fill="#FFF" stroke="#E8E8E8" />
+    <g clip-path="url(#coast)">
+      <rect x="18" y="18" width="306" height="184" fill="#EEE7DF" />
+      <circle cx="261" cy="61" r="24" fill="#EC484B" />
+      <path d="M18 116H324V202H18Z" fill="#A9BEC2" />
+      <path d="M18 132Q89 122 164 140T324 130V202H18Z" fill="#91AEB4" />
+      <path d="M18 201V91L68 120 103 157 157 177 216 202Z" fill="#727F77" />
+      <path d="M18 202V128L80 157 139 190 186 202Z" fill="#53685E" />
+      <path d="M162 155h32m34 19h48m-17-38h33" stroke="#E8EFF0" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="20" y="233" fill="#262626" font-size="20" font-weight="600">A quiet afternoon</text>
+      <text x="20" y="259" fill="#8A8A8A" font-size="15">Vancouver, BC</text>
+      <text x="20" y="284" fill="#525252" font-size="15">No plans. Just a good view.</text>
+    </g>
+  </g>
+</svg>

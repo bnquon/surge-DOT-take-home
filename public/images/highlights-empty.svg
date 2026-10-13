@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" fill="none">
+  <title>A stack of highlight cards waiting for a first memory</title>
+  <g transform="rotate(-10 110 94)">
+    <rect x="68" y="41" width="84" height="106" rx="12" fill="#F0F0F0" stroke="#DEDEDE" />
+    <rect x="80" y="53" width="60" height="48" rx="8" fill="#E5E5E5" />
+    <path d="M80 114h38m-38 10h48" stroke="#D4D4D4" stroke-width="4" stroke-linecap="round" />
+  </g>
+  <g transform="rotate(10 210 94)">
+    <rect x="168" y="41" width="84" height="106" rx="12" fill="#F0F0F0" stroke="#DEDEDE" />
+    <rect x="180" y="53" width="60" height="48" rx="8" fill="#E5E5E5" />
+    <path d="M180 114h38m-38 10h48" stroke="#D4D4D4" stroke-width="4" stroke-linecap="round" />
+  </g>
+  <rect x="108" y="30" width="104" height="128" rx="12" fill="#E9E9E9" />
+  <rect x="108" y="26" width="104" height="128" rx="12" fill="#FFF" stroke="#D4D4D4" stroke-width="1.5" />
+  <rect x="120" y="38" width="80" height="62" rx="8" fill="#F3F3F3" />
+  <circle cx="183" cy="53" r="5.5" fill="#EC484B" />
+  <path d="m126 89 19-24 17 17 11-12 21 23h-68z" fill="#DEDEDE" />
+  <path d="m126 89 19-24 17 17 11-12 21 23" stroke="#A3A3A3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M122 112h50" stroke="#A3A3A3" stroke-width="5" stroke-linecap="round" />
+  <path d="M122 123h72m-72 10h57" stroke="#E5E5E5" stroke-width="4" stroke-linecap="round" />
+  <circle cx="216" cy="138" r="19" fill="#FAFAFA" />
+  <circle cx="216" cy="138" r="16" fill="#EC484B" />
+  <path d="M216 131v14m-7-7h14" stroke="#FFF" stroke-width="2.5" stroke-linecap="round" />
+</svg>
