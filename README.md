@@ -3,6 +3,8 @@
 A small highlights app for my SFU Surge take-home, built to match the provided
 Figma design. Next.js, TypeScript, Tailwind CSS, and Biome.
 
+[Live demo](https://sfu-surge-take-home.vercel.app)
+
 ## What it does
 
 - Live reviews in one, two, or three independent columns.
