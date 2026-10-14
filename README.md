@@ -85,3 +85,13 @@ A few small touches I added along the way:
 - Subtle animations with reduced-motion support.
 - Full-description popovers and separate card/photo loaders.
 - Custom empty-state and photo fallback illustrations, plus a favicon and link preview.
+
+## Lighthouse results
+
+### Desktop
+
+![Desktop Lighthouse results](./assets/lighthouse-desktop.png)
+
+### Mobile
+
+![Mobile Lighthouse results](./assets/lighthouse-mobile.png)
