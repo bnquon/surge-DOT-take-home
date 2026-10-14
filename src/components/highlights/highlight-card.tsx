@@ -8,7 +8,7 @@ export function HighlightCard({ highlight, eager, onRetry }: HighlightCardProps)
   return (
     <article
       aria-busy={highlight.saveStatus === "saving"}
-      className="highlight-card flex min-w-0 flex-col gap-2 rounded-xl bg-white p-5 opacity-90 shadow-[inset_0_0_0_1px_#f3f3f3]"
+      className="flex min-w-0 flex-col gap-2 rounded-xl bg-white p-5 opacity-90 shadow-[inset_0_0_0_1px_#f3f3f3]"
     >
       <HighlightImage query={highlight.title} eager={eager} />
       <div className="flex flex-col gap-1">

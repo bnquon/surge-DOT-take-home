@@ -13,7 +13,7 @@ Figma design. Next.js, TypeScript, Tailwind CSS, and Biome.
 - A create modal with required title, location, and description fields.
 - New cards appear right away while they save, with a retry option if needed.
 - Clipped descriptions show the full text on hover, keyboard focus, or tap.
-- Subtle card entrances, popover fades, and modal open/close motion respect reduced-motion settings.
+- Popover fades and modal open/close motion respect reduced-motion settings.
 
 ## How it works
 
