@@ -2,7 +2,7 @@ export function HighlightsHeader() {
   return (
     <header className="flex flex-col gap-4 md:max-w-150 lg:max-w-165">
       <div className="flex flex-col gap-2">
-        <p className="text-xs leading-tight font-semibold tracking-[-0.01em] text-[#ec484b]">
+        <p className="text-xs leading-tight font-semibold tracking-[-0.01em] text-[#cf3538]">
           HIGHLIGHTS
         </p>
         <h1

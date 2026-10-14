@@ -15,6 +15,20 @@ export function HighlightGrid({
 }: HighlightGridProps) {
   const columnCount = useHighlightColumns();
 
+  // CSS sets the initial skeleton columns before the viewport hook hydrates.
+  if (isLoading && highlights.length === 0) {
+    return (
+      <div
+        aria-busy="true"
+        className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-4 lg:grid-cols-3 lg:gap-x-4 lg:gap-y-3"
+      >
+        {skeletonIds.map((id) => (
+          <HighlightCardSkeleton key={`skeleton-${id}`} />
+        ))}
+      </div>
+    );
+  }
+
   return (
     <div aria-busy={isLoading} className="flex items-start gap-4">
       {columnNames.slice(0, columnCount).map((name, columnIndex) => (
