@@ -75,14 +75,11 @@ npm run typecheck
 npm run build
 ```
 
-## Favicon and link preview
+## Small touches
 
-The title is **Highlights | BQ Surge Take-Home**, with a coral photo favicon
-and a 1200 × 630 Open Graph image. Metadata lives in `src/app/layout.tsx`.
-Edit `src/app/icon.svg` or `assets/opengraph.svg`, then regenerate the assets:
+A few small touches I added along the way:
 
-```sh
-node scripts/generate-brand-assets.mjs
-```
-
-Vercel supplies the site URL. Set `SITE_URL` if using a custom domain or another host.
+- Optimistic updates so new cards appear right away.
+- Subtle animations with reduced-motion support.
+- Full-description popovers and separate card/photo loaders.
+- Custom empty-state and photo fallback illustrations, plus a favicon and link preview.
